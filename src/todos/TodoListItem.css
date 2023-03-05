@@ -21,10 +21,13 @@ button {
     outline: none;
     cursor: pointer;
 }
-
 .completed-button {
     display: inline-block;
     background-color: #22ee22;
+}
+.completed-button.inactive {
+    display: inline-block;
+    background-color: #eee;
 }
 
 .remove-button {
