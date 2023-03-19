@@ -1,0 +1,67 @@
+.todo-input::-webkit-input-placeholder{
+    color: white !important;
+}
+.todo-input::-moz-placeholder{
+    color: white !important;
+}
+.todo-input:-moz-placeholder{
+    color: white !important;
+}
+.todo-input:-ms-input-placeholder{
+    color: white !important;
+}
+
+svg{
+    transition: all .3s ease;
+}
+
+svg.add-img{
+    height: 18px;
+    width: 18px;
+    padding: 0;
+    color: #25b99a;
+    border: 0px;
+}
+
+svg.add-img:hover{
+    color: red;
+}
+
+svg.remove-img{
+    height: 22px;
+    width: 22px;
+    padding: 0;
+    color: #25b99a;
+    border: 0px;
+}
+
+svg.remove-img:hover{
+    color: #e85656;
+}
+
+svg.complete-img{
+    height: 22px;
+    width: 22px;
+    padding: 0;
+    color: #25b99a;
+    border: 0px;
+    border-radius: 11px;
+}
+
+svg.complete-img:hover{
+    color: white;
+    background-color: #25b99a;
+    border: 1px solid #25b99a;
+}
+
+svg.completed-img{
+    height: 22px;
+    width: 22px;
+    padding: 0;
+    color: #fff;
+    border: 0px;
+    border-radius: 11px;
+    border: 1px solid #25b99a;
+}
+   
+  

@@ -28,6 +28,9 @@ const mapDispatchToProps = dispatch => ({
 export default connect(mapStateToProps, mapDispatchToProps) (TodoList);
 
 const ListWrapper = styled.div`
-    max-width: 700px;
-    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 `;

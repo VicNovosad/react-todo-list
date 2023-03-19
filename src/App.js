@@ -11,10 +11,8 @@ const App = () => (
 export default App;
 
 const AppContainer = styled.div`
-    padding: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #222222;
-    background-color: #fff;
+    margin: 0;
+    background-color: #edf0f1;
     width: 100vw;
     height: 100vh;
 `
